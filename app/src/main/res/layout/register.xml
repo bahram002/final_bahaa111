@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="انشاء حساب"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/edit_text_style"
+        android:hint="اسم المستخدم"
+        android:paddingRight="10dp"
+        android:textSize="30sp"
+        />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text_style"
+        android:hint="البريد الالكتروني"
+        android:paddingRight="10dp"
+        android:textSize="30sp"
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text_style"
+        android:hint="كلمة المرور"
+        android:paddingRight="10dp"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="190dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="50dp"
+        android:text="انشاء حساب"
+        android:textSize="25dp" />
+
+
+</LinearLayout>

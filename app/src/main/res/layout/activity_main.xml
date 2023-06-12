@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="30dp"
+    android:padding="20dp"
+
     tools:context=".MainActivity">
 
     <TextView
@@ -27,8 +28,6 @@
         android:hint="اسم المستخدم"
         android:paddingRight="10dp"
         android:textSize="30sp"
-
-
         />
 
     <EditText
@@ -64,7 +63,6 @@
             android:layout_height="25dp"
             android:layout_marginLeft="10dp"
             android:background="@drawable/circale" />
-
     </LinearLayout>
 
     <TextView
@@ -80,8 +78,8 @@
     <Button
         android:id="@+id/btn_signIn"
         android:layout_width="190dp"
-        android:layout_height="100dp"
-        android:layout_marginLeft="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="85dp"
         android:layout_marginTop="50dp"
         android:text="تسجيل دخول"
         android:textSize="25dp" />

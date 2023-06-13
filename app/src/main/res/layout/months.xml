@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="الرئيسية "
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        >
+
+ <Button
+     android:id="@+id/btn_1"
+     android:layout_width="60dp"
+     android:layout_height="45dp"
+     android:layout_marginLeft="10dp"
+     android:text="1"
+     />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="2"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="3"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="4"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="5"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="6"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="7"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="8"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="9"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="10"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="11"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="12"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="13"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="14"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="15"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="16"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="17"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="18"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="19"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="20"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="21"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="22"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="23"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="24"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="25"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="26"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="27"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="28"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="29"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:text="30"
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="اجمالى نسبة حضور الطلاب خلال هذا الشهر هو"
+        android:textSize="22sp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 80%"
+        android:layout_marginLeft="130dp"
+        android:textSize="40sp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+
+        />
+
+
+
+</LinearLayout>

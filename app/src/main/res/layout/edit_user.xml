@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
-        android:text="انشاء حساب"
+        android:text="تعديل الحساب"
         android:textColor="@color/black"
         android:textSize="35sp" />
 
@@ -22,7 +22,8 @@
         android:layout_height="70dp"
         android:layout_marginTop="70dp"
         android:background="@drawable/edit_text_style"
-        android:hint="اسم المستخدم"
+        android:text="              mohammed"
+
         android:paddingRight="10dp"
         android:textSize="30sp"
         />
@@ -33,7 +34,7 @@
         android:layout_height="70dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/edit_text_style"
-        android:hint="البريد الالكتروني"
+        android:text="   mohammed@gmail.com"
         android:paddingRight="10dp"
         android:textSize="30sp"
         />
@@ -43,7 +44,7 @@
         android:layout_height="70dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/edit_text_style"
-        android:hint="كلمة المرور"
+        android:text="               123456789"
         android:paddingRight="10dp"
         android:textSize="30sp"
         />
@@ -54,7 +55,7 @@
         android:layout_height="80dp"
         android:layout_marginLeft="85dp"
         android:layout_marginTop="50dp"
-        android:text="انشاء حساب"
+        android:text="تعديل حساب"
         android:textSize="25dp" />
 
 

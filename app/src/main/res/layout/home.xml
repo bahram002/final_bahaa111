@@ -54,24 +54,47 @@
         <LinearLayout
             android:layout_width="150dp"
             android:layout_height="110dp"
-            android:weightSum="2"
             android:orientation="vertical"
             android:textSize="20dp"
-                    >
+            android:weightSum="2">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="0.5"
-                android:background="#A56969"                >
+                android:layout_weight="0.6"
+                android:background="@drawable/up_corner">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="110dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/x"
+
+                    />
+
 
             </LinearLayout>
+
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1.5"
-                android:background="@color/teal_200"
-                >
+                android:layout_weight="1.4"
+                android:background="@drawable/down_corner">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="15sp"
+                    android:gravity="center"
+                    android:text="قواعد بيانات"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+
+                    />
 
 
             </LinearLayout>
@@ -79,16 +102,57 @@
 
         </LinearLayout>
 
-        <Button
-
+        <LinearLayout
             android:layout_width="150dp"
             android:layout_height="110dp"
             android:layout_marginLeft="50dp"
-            android:background="@drawable/cornar"
-            android:drawableRight="@drawable/x"
-            android:paddingLeft="30sp"
-            android:text="جافا"
-            android:textSize="20dp" />
+            android:orientation="vertical"
+            android:textSize="20dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:background="@drawable/up_corner">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="110dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/x"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.4"
+                android:background="@drawable/down_corner">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginBottom="15sp"
+                    android:gravity="center"
+                    android:text="جافا"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
 
     </LinearLayout>
 
@@ -99,64 +163,194 @@
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
-        <Button
+        <LinearLayout
             android:layout_width="150dp"
             android:layout_height="110dp"
-
-            android:background="@drawable/cornar"
-            android:text="تطبيقات برمجية"
-            android:drawableRight="@drawable/x"
-            android:paddingLeft="30sp"
+            android:orientation="vertical"
             android:textSize="20dp"
+            android:weightSum="2">
 
-            />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:background="@drawable/up_corner">
 
-        <Button
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="110dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/x"
 
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.4"
+                android:background="@drawable/down_corner">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginBottom="15sp"
+                    android:gravity="center"
+                    android:text="تطبيقات برمجية"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="150dp"
             android:layout_height="110dp"
             android:layout_marginLeft="50dp"
-            android:background="@drawable/cornar"
-            android:text="هندسة برمجيات"
-            android:drawableRight="@drawable/x"
-            android:paddingLeft="30sp"
+            android:orientation="vertical"
             android:textSize="20dp"
-            />
+            android:weightSum="2">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:background="@drawable/up_corner">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="110dp"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/x"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+
+                android:layout_weight="1.4"
+                android:background="@drawable/down_corner">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="15sp"
+                    android:gravity="center"
+                    android:text="هندسة برمجيات"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:layout_marginTop="20dp"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
 
-        <Button
-            android:layout_width="150dp"
-            android:layout_height="110dp"
 
-            android:background="@drawable/cornar"
-            android:text="ورش اندرويد"
-            android:drawableRight="@drawable/x"
-            android:paddingLeft="30sp"
-            android:textSize="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="إضافة مادة"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+
+            android:layout_marginLeft="200dp"
+
+            />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_add_supject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/add"
+            android:layout_marginLeft="10dp"
+
+
+
+
 
             />
 
-        <Button
 
-            android:layout_width="150dp"
-            android:layout_height="110dp"
-            android:layout_marginLeft="50dp"
-            android:background="@drawable/cornar"
-            android:text="تطوير اندرويد"
-            android:drawableRight="@drawable/x"
-            android:paddingLeft="30sp"
-            android:textSize="20dp"
-            />
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="إضافة طالب"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+
+            android:layout_marginLeft="200dp"
+
+            />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_add_student"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/add"
+            android:layout_marginLeft="10dp"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_show_student"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/cornar"
+        android:text="عرض الطلاب"
+        android:textSize="30dp"
+        />
 
 
 

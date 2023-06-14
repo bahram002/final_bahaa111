@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="2"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="0.3"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="جميع الطلاب "
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1.7"
+        android:padding="20dp"
+        android:background="#CFCFCF"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/empty_button"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="محمد أحمد محمد"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/x"
+                android:drawablePadding="200dp"
+                />
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/empty_button"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="محمد أحمد محمد"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/x"
+                android:drawablePadding="200dp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/empty_button"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="محمد أحمد محمد"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/x"
+                android:drawablePadding="200dp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/empty_button"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="محمد أحمد محمد"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/x"
+                android:drawablePadding="200dp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/empty_button"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="محمد أحمد محمد"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/x"
+                android:drawablePadding="200dp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/empty_button"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="محمد أحمد محمد"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/x"
+                android:drawablePadding="200dp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/empty_button"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="محمد أحمد محمد"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/x"
+                android:drawablePadding="200dp"
+                />
+
+
+        </LinearLayout>  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/empty_button"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="محمد أحمد محمد"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/x"
+            android:drawablePadding="200dp"
+            />
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/empty_button"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="محمد أحمد محمد"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/x"
+                android:drawablePadding="200dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
